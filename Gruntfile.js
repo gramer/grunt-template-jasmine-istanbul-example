@@ -26,9 +26,9 @@ module.exports = function(grunt) {
 								}
 							},
 							{
-								type: 'cobertura',
+								type: 'lcov',
 								options: {
-									dir: '<%= meta.bin.coverage %>/cobertura'
+									dir: '<%= meta.bin.coverage %>/lcov'
 								}
 							},
 							{
