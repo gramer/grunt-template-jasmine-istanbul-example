@@ -37,3 +37,6 @@ Instead, this example redirects requests that should point to instrumented sourc
 
 Uses `grunt-template-jasmine-requirejs` to run the test on with RequireJS, but this time doesn't screw up the RequireJS configuration by overriding the `baseUrl` option.
 Instead, this example redirects requests that should point to instrumented sources on the **server** side.
+=======
+grunt-template-jasmine-istanbul-example
+=======================================
